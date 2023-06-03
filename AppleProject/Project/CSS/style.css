@@ -1,0 +1,220 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+img {
+  max-width: 100%;
+}
+/* This means all images in the containers can not be more than 100% the size of the container. This makes sense othrwise there will be overflow if the sizer of the image is greater than the size of the contanier */
+body {
+  font-size: 20px;
+  font-family: "Times New Roman", Times, serif;
+}
+/* Header style start here  */
+
+.header-wrapper {
+  background-color: black;
+  color: #fff;
+  font-weight: 200;
+  font-size: 0.75em;
+}
+/* What is the purpose of color here? it is defined more specifically below. */
+.header-wrapper ul {
+  display: flex;
+  -webkit-box-pack: justify;
+  justify-content: space-between;
+  color: white;
+}
+/* What is the purpose of color here? it is more specifically defined below. */
+.internal-wrapper {
+  width: 980px;
+  padding: 0 10px;
+  margin: 0 auto;
+}
+.header-wrapper .header-links-wrapper ul li a {
+  text-decoration: none;
+  color: #fff;
+}
+.header-wrapper ul {
+  list-style: none;
+}
+.header-wrapper .header-links-wrapper ul li {
+  display: inline-block;
+  padding: 14px 0 8px;
+  height: 25px;
+  opacity: 0.6;
+}
+/* I do not see the imporatnce of display here cuz it is already defined above */
+.header-wrapper .header-links-wrapper ul li:hover {
+  opacity: 1;
+}
+/* Replace "opacity : 1" by "font-size: 20px;
+  color: yellow; background-color: blue; text-transform: uppercase;" and see the change, it is amazing, hahaha but make sure you added "a: before ":hover" */
+.logo-link,
+.search-link,
+.cart-link {
+  width: 18px;
+  display: block;
+}
+/* Why display block is needed here? it is already mentioned flex on line number 20 */
+.header-wrapper .header-links-wrapper ul li .logo-link {
+  padding: 12px 0 10px;
+}
+.header-wrapper .header-links-wrapper ul li .search-link {
+  padding: 14px 0 8px;
+}
+.header-wrapper .header-links-wrapper ul li .cart-link {
+  padding: 12px 0 10px;
+}
+/* I do not realy see the effects of the above three paddings, change the numbers and see if they bring a diffrences on the browser, may thier size is fixed and already justified */
+
+/* Header ends here */
+
+/* MacBookSection starts here */
+
+.MackBook-wrap {
+  width: 980px;
+  padding: 20px;
+  margin: 10px auto;
+}
+h5 {
+  font-size: 10px;
+  color: gray;
+  text-align: center; 
+}
+
+h1 {
+  font-size: 55px;
+  color: Black;
+  text-align: center;
+  font-weight: 700; 
+}
+h2 {
+  font-size: 25px;
+  color: Black;
+  text-align: center;
+  font-weight: 400; 
+}
+.MackBook-internal ul li a {
+  color: lightskyblue;
+  font-size: medium;
+  display: inline;
+  justify-content: center; 
+}
+
+/* <!-- MacBook Section ends here  --> */
+/* <!-- Iphone 11 Pro section Starts here --> */
+
+
+
+
+/* Iphone 11 Pro section ends here */
+/* Iphone 11 section starts here */
+
+
+
+
+/* Iphone 11 section ends here */
+/* Watch and Card section starts here */
+
+
+
+/* Watch and Card section ends here */
+/* TV amd Airpods section starts here */
+
+
+/* TV amd Airpods section ends here */
+/*MacPro and Ipad section starts here */
+
+
+/* MacPro and Ipad section ends here */
+
+
+
+/* Footer starts here */
+.footer-wrapper {
+  background-color: #f5f5f7;
+  color: #1d1d1f;
+  font-size: 0.65em;
+}
+.upper-text-container {
+  border-bottom: 1px solid #d2d2d7;
+  color: #86868b;
+  padding: 17px 0 20px;
+}
+.upper-text-container a {
+  text-decoration: none;
+  color: #515154;
+}
+/* The none text-decoration will avoid the underline from the linked words */
+.upper-text-container a:hover {
+  text-decoration: underline;
+}
+/* } on hover, the above will underline the link */
+.links-wrapper {
+  display: flex;
+  -webkit-box-pack: justify;
+  justify-content: space-between;
+  padding-top: 20px;
+}
+/* Why the above instruction (flex) is not working? */
+.footer-wrapper ul {
+  list-style: none;
+  padding-bottom: 20px;
+}
+.footer-wrapper ul li {
+  padding: 5px 0;
+  font-size: 0.9em;
+}
+.links-wrapper a {
+  color: #515154;
+  text-decoration: none;
+}
+/*  */
+
+.links-wrapper a:hover {
+  text-decoration: underline;
+  }
+.footer-links-wrapper h2 {
+  font-size: 16px;
+  font-weight: 600;
+}
+.my-apple-wrapper {
+  border-bottom: 1px solid #d2d2d7;
+  padding: 10px;
+  margin-bottom: 10px;
+}
+.copyright-wrapper {
+  display: flex;
+  -webkit-box-pack: justify;
+  justify-content: space-between;
+  padding: 10px 0 20px;
+}
+.footer-links-terms ul li {
+  display: inline-block;
+  padding: 0 5px;
+  border-right: 1 px solid #ccc;
+}
+.footer-links-terms ul li:last-child {
+  border-right: 0px;
+}
+/* What is this last child mean (above)? and the font color is differnt than Adugna's, if the border is 0px, why it is needed to mention it here above*/
+.footer-links-terms ul li a {
+  text-combine-upright: none;
+  color: #515154;
+}
+.footer-links-terms ul li a:hover {
+  text-decoration: underline;
+}
+.footer-country {
+  display: inline-block;
+}
+.flag-wrapper {
+  display: inline-block;
+  vertical-align: middle;
+}
+/* What is the differnce between vertical algin (see above) and padding? */
+.footer-country-name {
+  display: inline-block;
+  vertical-align: top;
+}

@@ -1,0 +1,380 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+img {
+  max-width: 100%;
+}
+body {
+  font-size: 20px;
+}
+
+
+                                            /* Header start */
+
+.HeaderSection {
+  background-color: hsl(239, 78%, 35%);
+  font-size:0.75em;
+}
+.HeaderSection ul {
+  display: flex;
+}
+.headercontent {
+  width: 980px;
+  padding: 10px;
+  margin: 0 auto;
+}
+.headerMenu ul li {
+  padding: 10px 0 20px;
+  margin: 0 auto;
+  list-style: none;
+}
+/* Why list style is not working in the lower step (just below next to decoration */
+.headerMenu ul li a {
+  color: white;
+  font-weight: 200;
+  font-size: 0.85em;
+  text-decoration: none;
+}
+.apple-log, .Search-link, .Cart-link {
+  width: 18px ;
+  display: block;
+}
+.headerMenu ul li {
+  opacity: 0.65;
+}
+.headerMenu ul li:hover {
+  opacity: 1;
+  width: 35px;
+  }
+  
+.headerMenu ul li a:hover {
+  color:rgb(223, 247, 37);
+  font-size: large;
+} 
+                              /* <!-- Header ends -->
+                                      <!-- 16 inch Model section start, main-highlight-wrapper --> */
+
+.modelsection {
+  background-color: #fafafafa;
+  text-align: center;
+  padding: 25px 0;
+}
+.LearnBuylink ul {
+	list-style: none;
+}
+.LearnBuylink ul li a{
+  list-style: none;
+  color: blue;
+  display: inline;
+}
+.modelnumber {
+  font-size: .85em; 
+}
+
+.Mac {
+  font-weight: 700;
+	font-size: 56px;
+} 
+.Best {
+  font-size: 2em;
+}
+
+.LearnBuylink {
+	padding: 15px 0;
+}
+.LearnBuylink ul li {
+	display: inline-block;
+	padding-right: 20px;
+}
+.LearnBuylink ul li a {
+	color: #06c;
+	text-decoration: none;
+}
+.LearnBuylink ul li a:hover {
+	color: #daea22;
+}
+.LearnBuylink ul li a:after {
+  font-family: "FontAwesome";
+  font-weight: 900;
+  content: "\f105";
+  padding-left: 10px;
+}
+
+                                    /* <!-- 16 inch Model section end, main-highlight-wrapper -->
+
+                                            <!-- iphone 11 pro start, second-hightlight-wrapper ---> */
+
+.iphone11ProSection {
+background-image: url(../images/home/iphone11-pro-bg.jpg);
+height: 580px;
+	background-position: center;
+	background-repeat: no-repeat;
+  background-size: cover;
+	text-align: center;
+	padding: 65px 20px;
+	color: #fff;
+}  
+  
+.iphone11pro {
+	font-weight: 600;
+	font-size: 56px;	
+}
+.ProCDP {
+	font-size: 26px;
+	padding: 10px 0;
+}
+.price {
+	color: #86868b; 
+	font-size: 0.85em;
+}
+
+                 /* <!-- !-- iphone 11 pro end , second-hightlight-wrapper--> */
+
+                      /* <!-- iphone 11 start --third-highlight-wrapper --> */
+
+.iphone-11-section {
+	background-image: url("../images/home/iphone11-bg.jpg");
+	height: 580px;
+	background-position: center;
+	background-repeat: no-repeat;
+	background-size: cover;
+	text-align: center;
+	padding: 65px 20px;
+}
+
+          /* <!-- iphone 11 end, third-highlight-wrapper --> */
+
+          /* <!-- WatchandCard section start, -- fourth-heghlight-wrapper -->*/
+
+.WatchAndCard-section{
+    display: flex;
+  -webkit-box-pack: justify;
+  justify-content: space-between;
+  background: #fff;
+
+  }
+.Leftwatchwrapper {
+  height: 580px;
+	background-position: center;
+	background-repeat: no-repeat;
+	background-size: cover;
+	text-align: center;
+  width: 48.5%;
+	margin: 1% 0.5% 0% 1%; 
+	padding-top: 54px;
+}
+.WatchAndCard-section .Leftwatchwrapper {
+  background-image: url(../images/home/watch-series-5.jpg);
+}
+.Rightcardwrapper {
+  height: 580px;
+	background-position: center;
+	background-repeat: no-repeat;
+	background-size: cover;
+	text-align: center;	
+	width: 48.5%;
+	margin: 1% 1% 0% 0.5%; 
+	padding-top: 54px;  
+}
+.WatchAndCard-section .Rightcardwrapper {
+  background-image: url(../images/home/apple-card.jpg);
+}
+.description-wraper{
+  max-width: 430px;
+	margin: 0 auto;
+	padding: 10px; 
+}
+  /* <!-- WatchandCard section end --- fourth-heghlight-wrapper -->
+
+
+          <!-- TV and airpod section start,  fifth-heghlight-wrapper -->*/
+
+          /* <!-- TV and airpod section start,  fifth-heghlight-wrapper -->*/
+.TvAirpodsection {
+  display: flex;
+  -webkit-box-pack: justify;
+  justify-content: space-between;
+  background: #fff;
+}
+
+.LeftTvsidewrap {
+  height: 580px;
+	background-position: center;
+	background-repeat: no-repeat;
+	background-size: cover;
+	text-align: center;
+  width: 48.5%;
+	margin: 1% 0.5% 0% 1%; 
+	padding-top: 54px;
+}
+.TvAirpodsection .LeftTvsidewrap{
+  background-image: url(../images/home/apple-tv-background.jpg);
+  }
+  .RightSideWrap {
+    height: 580px;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    text-align: center;	
+    width: 48.5%;
+    margin: 1% 1% 0% 0.5%; 
+    padding-top: 54px;  
+  }
+.TvAirpodsection .RightSideWrap {
+  background-image: url(../images/home/air-pods.jpg);
+  color: #fff; 
+	background-size: initial;
+	background-color: #000;
+	background-position: bottom;
+}
+.logwarp {
+  font-size: 40px;
+	font-weight: bold;
+} 
+.tvshowlogwrap {
+  padding: 180px 0 200px;
+}
+.watchWrap {
+  text-decoration: none;
+	font-size: 0.85em;
+}
+.watchWrap a:after{
+  font-family: "FontAwesome";
+  font-weight: 900;
+  content: "\f144";
+  padding-left: 15px;
+}
+          /* <!-- TV and airpod section end fifth-heghlight-wrapper -->*/
+
+
+        /* <!-- MacBook and ipad section start, sixth-heghlight-wrapper-> --> */ 
+
+.MacBookipadsection {
+  display: flex;
+  -webkit-box-pack: justify;
+  justify-content: space-between;
+  background: #fff;
+}
+.MacBookipadsection .left-sidewrap {
+  height: 580px;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  text-align: center;	
+  width: 48.5%;
+  margin: 1% 1% 0% 0.5%; 
+  padding-top: 54px;  
+}
+.MacBookipadsection .left-sidewrap {
+  background-image: url(../images/home/macbook-pro.jpg);
+  background-size: initial;
+	background-color: #fafafa;
+	background-position: bottom;
+}
+.MacBookipadsection .Rightsidewrap {
+  height: 580px;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  text-align: center;	
+  width: 48.5%;
+  margin: 1% 1% 0% 0.5%; 
+  padding-top: 54px;  
+}
+.MacBookipadsection .Rightsidewrap{
+  background-image: url(../images/home/new-ipad.jpg);
+}
+.Mac {
+  font-weight: 700;
+	font-size: 45px;
+}
+                              /* <!-- MacBook and ipad section end, sixth-heghlight-wrapper- */
+
+                                /* <!-- Footer section start --> */
+.Footersection {
+  background-color: #f5f5f7;
+  color:#1d1d1f;
+  font-size: 0.65em;
+  width: 980px;
+  margin: 10px auto;
+
+}
+.TradeInWrap {
+  border-bottom: 1px soild #d2d2d7;
+  color:#86868b;
+  padding:17px 0 20px;
+}
+.TradeInWrap a {
+  text-decoration: none;
+  color: #515154;
+}
+.TradeInWrap a:hover{
+  text-decoration: underline;
+}
+.Footer-Links{
+  display: flex;
+  -webkit-box-pack: justify;
+  justify-content: space-between;
+  padding-top: 20px;
+  }
+.Footer-Links ul {
+  list-style: none;
+  padding-bottom: 20px;
+}
+.Footer-Links ul li{
+	padding: 5px 0;
+	font-size: 0.95em;
+}
+.Footer-Links a {
+  color: blue;
+  text-decoration: none;
+  margin: 5px;
+}
+.Footer-Links a:hover{
+  text-decoration: underline;
+}
+.Footer-Links h3 {
+  font-size: 12px;
+  font-weight: 600;
+  color:orangered;
+}
+.MoreWays {
+  border-bottom: 1px solid #d2d2d7;
+	padding-bottom: 10px;
+	margin-bottom: 10px;
+  color:orangered;  
+}
+.Privacywrap {
+  display: flex;
+  -webkit-box-pack: justify;
+  justify-content: space-between;
+  padding: 10px 0 20px; 
+}
+.footerlinks ul li {
+  display: inline-block;
+  padding: 0 5px;
+  border-right: 1px solid #ccc;
+}
+.footerlinks ul li:last-child {
+  border-right: 0px;
+}
+.footerlinks ul li a {
+  text-decoration: none;
+  color:#515154;
+  }
+.footerlinks ul li a:hover{
+  text-decoration: underline;
+}
+.countryFlag {
+  display: inline-block;
+}
+.flag {
+  display: inline-block;
+  vertical-align: middle;
+}
+.country {
+  display: inline-block;
+  vertical-align: top;
+}
+/* <!-- Footer section end --> */
